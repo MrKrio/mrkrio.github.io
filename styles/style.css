@@ -1,0 +1,105 @@
+body, div, a, img, header, h1, h2, p, ul, li {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+body {
+	font-family: Arial;
+	font-size: 15px;
+	font-style: bold;
+	margin: 0;
+	padding: 0;
+	background: #282B2F;
+	/*background-image: url(../img/tech.jpg);*/ 
+	background-repeat: no-repeat;
+	background-size: 100%;
+} 
+
+
+body {
+	text-align: center;
+}
+
+#headerer {
+	font-size: 20px;
+	float: left;
+	width: 10%;
+}
+
+#headerer a {
+	display: block;
+	width: 100%;
+	height: 45px;
+}
+
+#headerer a {
+	color: #fff;
+	text-decoration: none;
+}
+
+
+#header {
+	float: right;
+	list-style: none;
+	width: 90%;
+	height: 45px;
+}
+
+.hdr {
+	float: left;
+	width: 25%;
+
+}
+
+.hdr a {
+	font-size: 18px;
+	display: block;
+	width: 100%;
+	line-height: 45px;
+	color: #fff;
+	text-decoration: none;
+	border-bottom: 5px solid #2a2a2a;
+
+}
+
+.hdr a:hover {
+	background: orange;
+	border-bottom: 5px solid #ee8800;
+	transition: all 0.2s ease-out;
+}
+
+
+header {
+	color: #fff;
+	height: 45px;
+	background: #131313;
+	width: 100%;
+	z-index: 999;
+	position: fixed;
+	line-height: 45px;
+	border-bottom: 5px solid #2a2a2a;
+}
+
+
+#banner {
+	width: 100%;
+	height: 285px;
+	position: fixed;
+	top: 50px;
+	background-image: url(../img/header.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+#content {
+	padding-top: 55px;
+	color: #fff;
+	margin: 0 auto;
+	width: 100%;
+	position: relative;
+	top: 330px;
+	background: #131313;
+	height: 1500px;
+	z-index: 9;
+}
+
