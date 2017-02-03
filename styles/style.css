@@ -92,6 +92,7 @@ header {
 }
 
 #content {
+	font-size: 1.5em;
 	padding-top: 55px;
 	color: #fff;
 	margin: 0 auto;
@@ -99,7 +100,38 @@ header {
 	position: relative;
 	top: 330px;
 	background: #131313;
-	height: 1500px;
-	z-index: 9;
+	height: 500px;
+	z-index: 0;
 }
 
+#footer {
+	text-align: center;
+	width: 100%;
+	height: 100px;
+	background: orange;
+	position: absolute;
+	top: 880px;
+}
+
+.rights {
+	padding-top: 10px;
+	background: orange;
+	width: 50%;
+	height: 100px;
+	float: left;
+	text-align: center;
+}
+
+.rights:nth-child(1) {
+	background: #7900D0;
+}
+
+#copyright {
+	position: absolute;
+	right: 10px;
+	bottom: 5px;
+}
+
+#mail {
+	color: #fff;
+}
