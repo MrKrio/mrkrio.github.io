@@ -26,9 +26,9 @@ body {
 	width: 10%;
 }
 
+
 @media only screen and (max-width: 740px) {
-	#headerer a {min-height: 55px; font-size: 0.5em; padding-top: 15px;}
-	#header {min-height: 70px;}
+	#header {min-height: 70px; width: 100%;}
 	header {min-height: 70px;
 		line-height: 70px;}
 	.hdr a {
@@ -58,6 +58,14 @@ body {
 	list-style: none;
 	width: 90%;
 	height: 45px;
+}
+
+@media only screen and (max-width: 740px) {
+	#headerer {
+	display: none;
+	}
+	#header{float: left;
+		width: 100%;}
 }
 
 .hdr {
@@ -106,6 +114,13 @@ header {
 	background-position: center;
 }
 
+@media only screen and (max-width: 740px) {
+	#banner {
+		height: 180px;
+		top: 70px;
+	}
+}
+
 #content {
 	color: #fff;
 	margin: 0 auto;
@@ -120,6 +135,7 @@ header {
 @media only screen and (max-width: 740px) {
 	#content {
 		height: 3000px;
+		top: 250px;
 	}
 }
 
@@ -147,7 +163,7 @@ header {
 		line-height: 70px;
 	}
 	.hdr a	{
-		font-size: 0.8em;
+		font-size: 100%;
 	}
 }
 
@@ -221,4 +237,13 @@ header {
 	right: 0px;
 	max-width: 177px;
 	max-height: 300px;
+}
+
+@media only screen and (max-width: 740px) {
+	#animes {
+		top: 1400px;
+		max-width: 59px;
+		max-height: 100px;
+	}
+
 }
