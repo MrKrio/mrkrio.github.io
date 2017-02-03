@@ -1,4 +1,4 @@
-body, div, a, img, header, h1, h2, h3, h4, h5, h6 p, ul, li {
+body, div, a, img, header, h1, h2, h3, h4, h5, h6, ul, li {
 	padding: 0;
 	margin: 0;
 	border: 0;
@@ -83,7 +83,7 @@ header {
 
 #banner {
 	width: 100%;
-	height: 285px;
+	height: 280px;
 	position: fixed;
 	top: 50px;
 	background-image: url(../img/header.jpg);
@@ -98,7 +98,7 @@ header {
 	position: relative;
 	top: 330px;
 	background: #131313;
-	height: 1800px;
+	height: 1900px;
 	z-index: 9;
 }
 
@@ -106,7 +106,7 @@ header {
 	display: block;
 	float: left;
 	width: 50%;
-	height: 1470px;
+	height: 1500px;
 	-webkit-box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.75);
 	-moz-box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.75);
 	box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.75);
@@ -127,6 +127,18 @@ header {
 	color: orange;
 }
 
+.qqq {
+	width: 100%;
+	height: 130px;
+	border-bottom: 2px solid #050505;
+}
+
+.qqq2 {
+	width: 100%;
+	height: 260px;
+	border-bottom: 2px solid #050505;
+}
+
 .quest {
 	padding-top: 30px;
 	display: block;
@@ -137,13 +149,12 @@ header {
 .answ {
 	display: block;
 	padding-bottom: 30px;
-	border-bottom: 1px solid #050505;
 }
 
 #comp {
 	display: block;
 	width: 100%;
-	height: 100%;
+	height: 570px;
 }
 
 #comp h3 {
@@ -160,5 +171,6 @@ header {
 	font-size: 20px;
 	text-align: left;
 	float: left;
-	padding: 20px 40px;
+	padding-top: 20px;
+	padding-left: 40px;
 }
