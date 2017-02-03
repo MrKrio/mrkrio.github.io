@@ -174,3 +174,12 @@ header {
 	padding-top: 20px;
 	padding-left: 40px;
 }
+
+#animes {
+	overflow: hidden;
+	position: absolute;
+	top: 1200px;
+	right: 0px;
+	max-width: 177px;
+	max-height: 300px;
+}
