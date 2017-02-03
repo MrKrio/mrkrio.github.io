@@ -116,7 +116,7 @@ header {
 
 @media only screen and (max-width: 740px) {
 	#banner {
-		height: 180px;
+		height: 150px;
 		top: 70px;
 	}
 }
@@ -135,7 +135,7 @@ header {
 @media only screen and (max-width: 740px) {
 	#content {
 		height: 3000px;
-		top: 250px;
+		top: 220px;
 	}
 }
 
