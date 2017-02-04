@@ -28,7 +28,7 @@ body {
 
 
 @media only screen and (max-width: 740px) {
-	#header {min-height: 70px; width: 100%;}
+	#header {min-height: 70px;}
 	header {min-height: 70px;
 		line-height: 70px;}
 	.hdr a {
@@ -161,9 +161,6 @@ header {
 	.faq h3 {
 		height: 70px;
 		line-height: 70px;
-	}
-	.hdr a	{
-		font-size: 100%;
 	}
 }
 

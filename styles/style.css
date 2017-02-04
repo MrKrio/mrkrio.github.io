@@ -1,4 +1,4 @@
-body, div, a, img, header, h1, h2, p, ul, li {
+body, div, a, img, header, h1, h2, ul, li {
 	padding: 0;
 	margin: 0;
 	border: 0;
@@ -84,6 +84,12 @@ body {
 
 }
 
+@media only screen and (max-width: 740px) {
+	.hdr a {
+		font-size: 1.1em;
+	}
+}
+
 .hdr a:hover {
 	background: orange;
 	border-bottom: 5px solid #ee8800;
@@ -123,24 +129,17 @@ header {
 
 #content {
 	font-size: 1.5em;
-	padding-top: 55px;
 	color: #fff;
 	margin: 0 auto;
 	width: 100%;
 	position: relative;
 	top: 330px;
 	background: #131313;
-	height: 500px;
+	height: 800px;
 	z-index: 0;
 }
 
-@media only screen and (max-width: 740px) {
-	#content {
-		height: 800px;
-		top: 220px;
-	}
 
-}
 
 #footer {
 	text-align: center;
@@ -148,7 +147,17 @@ header {
 	height: 100px;
 	background: orange;
 	position: absolute;
-	top: 1020px;
+	top: 1130px;
+}
+
+@media only screen and (max-width: 740px) {
+	#content {
+		top: 220px;
+		font-size: 1.2em;
+	}
+	#footer {
+		top: 980px;
+	}
 }
 
 .rights {
@@ -177,5 +186,62 @@ header {
 @media only screen and (max-width: 740px) {
 	.rights {
 		font-size: 10px;
+	}
+}
+
+#text h2 {
+	padding: 50px 0 40px 0;
+}
+
+
+#text p:nth-child(1) {
+	padding: 40px 0 40px 0;
+	font-size: 28px;
+}
+
+#krio {
+	margin-top: 20px;
+	font-size: 30px;
+	color: orange;
+	background: #7900D0;
+-webkit-box-shadow: 0px 0px 10px 5px rgba(121,0,208,1);
+-moz-box-shadow: 0px 0px 10px 5px rgba(121,0,208,1);
+box-shadow: 0px 0px 10px 5px rgba(121,0,208,1);
+-webkit-border-top-left-radius: 8px;
+-webkit-border-bottom-left-radius: 8px;
+-moz-border-radius-topleft: 8px;
+-moz-border-radius-bottomleft: 8px;
+border-top-left-radius: 8px;
+border-bottom-left-radius: 8px;
+z-index: 8;
+}
+
+#dub {
+	line-height: 40px;
+	font-size: 30px;
+	color: #7900D0;
+	background: orange;
+-webkit-box-shadow: 0px 0px 10px 5px rgba(255,165,0,1);
+-moz-box-shadow: 0px 0px 10px 5px rgba(255,165,0,1);
+box-shadow: 0px 0px 10px 5px rgba(255,165,0,1);
+-webkit-border-top-right-radius: 8px;
+-webkit-border-bottom-right-radius: 8px;
+-moz-border-radius-topright: 8px;
+-moz-border-radius-bottomright: 8px;
+border-top-right-radius: 8px;
+border-bottom-right-radius: 8px;
+z-index: 9;
+}
+
+
+@media only screen and (max-width: 740px) {
+	#text {
+		font-size: 20px;
+	}
+	#text p:nth-child(1) {
+		font-size: 22px;
+	}
+	#text p {
+		font-size: 18px;
 	}
 }
