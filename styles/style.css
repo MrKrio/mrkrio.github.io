@@ -26,6 +26,20 @@ body {
 	width: 10%;
 }
 
+@media only screen and (max-width: 740px) {
+	#header {min-height: 70px; width: 100%;}
+	header {min-height: 70px;
+		line-height: 70px;}
+	.hdr a {
+		padding-top: 15px;
+		height: 55px;}
+	.hdr {
+		line-height: 70px;
+		height: 70px;
+	}
+
+}
+
 #headerer a {
 	display: block;
 	width: 100%;
@@ -43,6 +57,14 @@ body {
 	list-style: none;
 	width: 90%;
 	height: 45px;
+}
+
+@media only screen and (max-width: 740px) {
+	#headerer {
+	display: none;
+	}
+	#header{float: left;
+		width: 100%;}
 }
 
 .hdr {
@@ -91,6 +113,14 @@ header {
 	background-position: center;
 }
 
+
+@media only screen and (max-width: 740px) {
+	#banner {
+		height: 150px;
+		top: 70px;
+	}
+}
+
 #content {
 	font-size: 1.5em;
 	padding-top: 55px;
@@ -104,13 +134,21 @@ header {
 	z-index: 0;
 }
 
+@media only screen and (max-width: 740px) {
+	#content {
+		height: 800px;
+		top: 220px;
+	}
+
+}
+
 #footer {
 	text-align: center;
 	width: 100%;
 	height: 100px;
 	background: orange;
 	position: absolute;
-	top: 880px;
+	top: 1020px;
 }
 
 .rights {
@@ -134,4 +172,10 @@ header {
 
 #mail {
 	color: #fff;
+}
+
+@media only screen and (max-width: 740px) {
+	.rights {
+		font-size: 10px;
+	}
 }
