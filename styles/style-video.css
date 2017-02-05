@@ -1,0 +1,317 @@
+body, div, a, img, header, h1, h2, h3, h4, h5, h6, ul, li, p {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+body {
+	font-family: Arial;
+	font-size: 15px;
+	font-style: bold;
+	margin: 0;
+	padding: 0;
+	background: #131313;
+	/*background-image: url(../img/tech.jpg);*/ 
+	background-repeat: no-repeat;
+	background-size: 100%;
+} 
+
+
+body {
+	text-align: center;
+}
+
+#headerer {
+	font-size: 20px;
+	float: left;
+	width: 10%;
+}
+
+@media only screen and (max-width: 768px) {
+	#header {min-height: 70px; width: 100%;}
+	header {min-height: 70px;
+		line-height: 70px;}
+	.hdr a {
+		padding-top: 15px;
+		height: 55px;}
+	.hdr {
+		line-height: 70px;
+		height: 70px;
+	}
+
+}
+
+#headerer a {
+	display: block;
+	width: 100%;
+	height: 45px;
+}
+
+#headerer a {
+	color: #fff;
+	text-decoration: none;
+}
+
+
+#header {
+	float: right;
+	list-style: none;
+	width: 90%;
+	height: 45px;
+}
+
+@media only screen and (max-width: 768px) {
+	#headerer {
+	display: none;
+	}
+	#header{float: left;
+		width: 100%;}
+}
+
+.hdr {
+	float: left;
+	width: 25%;
+	list-style: none;
+
+}
+
+.hdr a {
+	font-size: 18px;
+	display: block;
+	width: 100%;
+	line-height: 45px;
+	color: #fff;
+	text-decoration: none;
+	border-bottom: 5px solid #2a2a2a;
+
+}
+
+@media only screen and (max-width: 768px) {
+	.hdr a {
+		font-size: 1.1em;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	#ozv {
+		display: none;
+	}
+}
+
+.hdr a:hover {
+	background: orange;
+	border-bottom: 5px solid #ee8800;
+	transition: all 0.2s ease-out;
+}
+
+
+header {
+	color: #fff;
+	height: 45px;
+	background: #131313;
+	width: 100%;
+	z-index: 999;
+	position: fixed;
+	line-height: 45px;
+	border-bottom: 5px solid #2a2a2a;
+}
+
+
+#banner {
+	width: 100%;
+	height: 280px;
+	position: fixed;
+	top: 50px;
+	background-image: url(../img/header.png);
+	background-size: cover;
+	background-position: center;
+}
+
+#content {
+	color: #fff;
+	margin: 0 auto;
+	width: 100%;
+	height: 60vh;
+	position: relative;
+	top: 330px;
+	background: #131313;
+	z-index: 9;
+}
+
+
+.rights {
+	padding-top: 10px;
+	background: orange;
+	width: 50%;
+	height: 100px;
+	float: left;
+	text-align: center;
+}
+
+.rights:nth-child(1) {
+	background: #7900D0;
+}
+
+#copyright {
+	position: absolute;
+	right: 10px;
+	bottom: 5px;
+}
+
+
+@media only screen and (max-width: 768px) {
+	#content {
+		top: 220px;
+	}
+	#footer {
+		top: 980px;
+	}
+	#banner {
+		height: 150px;
+		top: 70px;
+	}
+	.rights {
+		font-size: 10px;
+	}
+}
+
+
+
+.b {
+	float: left;
+	width: 25%;
+	height: 60vh;
+}
+
+.box {
+	border: 2px solid #2a2a2a;
+	border-radius: 8%;
+}
+
+@media only screen and (max-width: 768px) {
+	.b {
+		width: 50%;
+		height: 40vh;
+	}
+}
+
+
+#box1 {
+	background-image: url(../img/at.png);
+	background-size: cover;
+	background-position: center;
+}
+
+#box2 {
+	background-image: url(../img/star.png);
+	background-size: cover;
+	background-position: center;
+}
+
+#box3 {
+	background-image: url(../img/lady.png);
+	background-size: cover;
+	background-position: center;
+}
+
+#box4 {
+	background-image: url(../img/train.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.season {
+	opacity: 0;
+	z-index: 999;
+	display: block;
+	width: 100%;
+	height: 100%;
+	border-radius: 7%;
+	position: relative;
+	transition: all ease-out 0.3s;
+}
+
+.season:hover {
+	opacity: 1;
+	background: rgba(0,0,0,0.50);
+}
+
+.seas {
+	color: white;
+	position: relative;
+	top: 150px;
+	height: 50px;
+	width: 100%;
+	border-bottom: 2px solid #000;
+	background: rgba(0,0,0,0.75);
+	line-height: 50px;
+}
+
+.seas a {
+	font-size: 1.5em;
+	display: block;
+	width: 100%;
+	height: 50px;
+	color: white;
+	text-decoration: none;
+	transition: all ease-out 0.1s;
+}
+
+.seas a:hover {
+	background: orange;
+	color: #050505;
+}
+
+.seas a:active {
+	transition: none;
+	background: #cc6600;
+}
+
+@media only screen and (max-width: 768px) {
+	.season {
+		opacity: 1;
+	}
+}
+
+
+@media only screen and (min-width: 1310px) {
+	.box {
+		margin: 10% auto;
+		width: 320px;
+		height: 400px;
+	}
+}
+
+@media only screen and (max-width: 1310px) {
+	.box {
+		margin: 10% auto;
+		width: 213px;
+		height: 267px;
+	}
+	.seas {
+		top: 100px;
+	}
+}
+
+@media only screen and (max-width: 414px) {
+	.box {
+		margin: 10% auto;
+		width: 160px;
+		height: 200px;
+	}
+	.seas {
+		top: 50px;
+		height: 30px;
+		line-height: 30px;
+	}
+	.seas a {
+		font-size: 1em;
+		height: 30px;
+	}
+}
+
+
+@media only screen and (max-height: 480px) {
+	.b {
+		height: 50vh;
+	}
+}
