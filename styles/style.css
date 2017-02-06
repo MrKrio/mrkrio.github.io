@@ -9,7 +9,7 @@ body {
 	font-style: bold;
 	margin: 0;
 	padding: 0;
-	background: #282B2F;
+	background: #131313;
 	/*background-image: url(../img/tech.jpg);*/ 
 	background-repeat: no-repeat;
 	background-size: 100%;
@@ -26,7 +26,7 @@ body {
 	width: 10%;
 }
 
-@media only screen and (max-width: 740px) {
+@media only screen and (max-width: 768px) {
 	#header {min-height: 70px; width: 100%;}
 	header {min-height: 70px;
 		line-height: 70px;}
@@ -59,7 +59,7 @@ body {
 	height: 45px;
 }
 
-@media only screen and (max-width: 740px) {
+@media only screen and (max-width: 768px) {
 	#headerer {
 	display: none;
 	}
@@ -84,13 +84,13 @@ body {
 
 }
 
-@media only screen and (max-width: 740px) {
+@media only screen and (max-width: 768px) {
 	.hdr a {
 		font-size: 1.1em;
 	}
 }
 
-@media only screen and (max-width: 740px) {
+@media only screen and (max-width: 768px) {
 	#ozv {
 		display: none;
 	}
@@ -126,7 +126,7 @@ header {
 }
 
 
-@media only screen and (max-width: 740px) {
+@media only screen and (max-width: 768px) {
 	#banner {
 		height: 150px;
 		top: 70px;

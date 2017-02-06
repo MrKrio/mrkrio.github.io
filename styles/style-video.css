@@ -169,13 +169,15 @@
 
 .series {
 	display: block;
-	width: 1000px;
+	width: 70%;
+	max-width: 1000px;
 	height: 150px;
 	margin: 0 auto;
 	background: #ccc;
 	border-bottom: 5px solid #050505;
 	text-decoration: none;
 }
+
 
 .preview {
 	display: block;
@@ -214,4 +216,33 @@
 .series a {
 	text-decoration: none;
 	color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+	.stext {
+		width: calc(100% - 100px);
+		height: 100px;
+		font-size: 10px;
+	}
+	.stext h4 {
+		padding: 10px 0px 5px 10px;
+		font-size: 1.1em;
+	}
+	.stext p {
+		padding-left: 10px;
+		font-size: 0.9em;
+	}
+	.series {
+		width: 90%;
+		max-width: 500px;
+		height: 100px;
+	}
+	.preview {
+		width: 100px;
+		height: 100px;
+	}
+	.preview img {
+		width: 100px;
+		height: 100px;
+	}
 }
