@@ -315,3 +315,53 @@ header {
 		height: 50vh;
 	}
 }
+
+
+.series {
+	display: block;
+	width: 1000px;
+	height: 150px;
+	margin: 0 auto;
+	background: #ccc;
+	border-bottom: 5px solid #050505;
+	text-decoration: none;
+}
+
+.preview {
+	display: block;
+	width: 150px;
+	height: 150px;
+	float: left;
+	background: #000;
+}
+
+.stext {
+	display: block;
+	width: 850px;
+	height: 150px;
+	float: left;
+	background: #2a2a2a;
+	color: #fff;
+	font-size: 16px;
+}
+
+.stext h4 {
+	padding: 20px;
+	float: left;
+}
+
+.stext p {
+	padding: 0 20px;
+	float: left;
+	text-align: left;
+}
+
+.preview img {
+	width: 150px;
+	height: 150px;
+}
+
+.series a {
+	text-decoration: none;
+	color: #fff;
+}
