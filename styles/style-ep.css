@@ -2,7 +2,7 @@
 	color: #fff;
 	margin: 0 auto;
 	width: 100%;
-	height: 80vh;
+	height: 700px;
 	position: relative;
 	top: 330px;
 	background: #131313;
@@ -26,12 +26,71 @@
 	}
 }
 
+#move {
+	display: block;
+	width: 100%;
+	height: 70px;
+	background-color: orange;
+}
+
+
+.but {
+	position: relative;
+	display: block;
+	width: 200px;
+	height: 100%;
+	transition: all ease-out 0.5s;
+}
+
+.but a {
+	display: block;
+	width: 100%;
+	height: 70px;
+	line-height: 70px;
+	font-size: 1.3em;
+	font-weight: bolder;
+	text-decoration: none;
+	color: #131313;
+}
+
+@media only screen and (max-width: 768px) {
+	.but {
+		width: 100px;
+	}
+	.but a {
+		font-size: 1.2em;
+	}
+}
+
+#b1 {
+	float: left;
+}
+#b2 {
+	float: right;
+}
+
+.but:hover {
+	background: rgba(128,55,0,0.4);
+}
+
 #wrp h2 {
-	padding: 20px;
+	line-height: 70px;
+	color: #131313;
+	font-size: 1.3em;
 }
 
 #wrp p {
 	padding-top: 20px;
+}
+
+#player {
+	display: block;
+	margin: 20px auto;
+	width: 100%;
+	max-width: 853px;
+	min-width: 1px;
+	height: 480px;
+	background: orange;
 }
 
 iframe {
@@ -39,7 +98,6 @@ iframe {
 	max-width: 853px;
 	min-width: 1px;
 	height: 480px;
-	background-color: #000;
 }
 
 @media only screen and (max-width: 768px) {
@@ -49,5 +107,5 @@ iframe {
 		max-height: 480px;
 		min-height: 1px;
 	}
-
+	
 }
