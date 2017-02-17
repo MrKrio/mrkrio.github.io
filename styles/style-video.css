@@ -166,6 +166,8 @@
 	}
 }
 
+/* Здесь начинается файл at7/index.html */
+
 
 .series {
 	display: block;
@@ -189,7 +191,8 @@
 
 .stext {
 	display: block;
-	width: 850px;
+	width: calc(100% - 150px);
+	max-width: 850px;
 	height: 150px;
 	float: left;
 	background: #2a2a2a;
