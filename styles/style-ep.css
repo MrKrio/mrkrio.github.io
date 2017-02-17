@@ -9,6 +9,23 @@
 	z-index: 9;
 }
 
+@media only screen and (max-width: 768px) {
+	#content {
+		top: 220px;
+		height: 100vh;
+	}
+	#footer {
+		top: 980px;
+	}
+	#banner {
+		height: 150px;
+		top: 70px;
+	}
+	.rights {
+		font-size: 10px;
+	}
+}
+
 #wrp h2 {
 	padding: 20px;
 }
@@ -18,5 +35,17 @@
 }
 
 iframe {
+	width: 100%;
+	max-width: 853px;
+	min-width: 1px;
+	height: 480px;
 	background-color: #000;
+}
+
+@media only screen and (max-width: 768px) {
+	iframe {
+		width: 100%;
+		height: 300px;
+	}
+
 }
