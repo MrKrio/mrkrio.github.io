@@ -12,6 +12,7 @@
 @media only screen and (max-width: 768px) {
 	#content {
 		top: 220px;
+		height: 120vh;
 	}
 	#footer {
 		top: 980px;
@@ -149,13 +150,13 @@
 		height: 200px;
 	}
 	.seas {
-		top: 50px;
-		height: 30px;
-		line-height: 30px;
+		top: 40px;
+		height: 60px;
+		line-height: 60px;
 	}
 	.seas a {
 		font-size: 1em;
-		height: 30px;
+		height: 60px;
 	}
 }
 
