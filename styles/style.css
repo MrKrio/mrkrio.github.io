@@ -179,3 +179,8 @@ header {
 	font-size: 9px;
 	color: red;
 }
+
+@font-face {
+	font-family: 'American Captain';
+	src: url(../fonts/American_Captain_.ttf);
+}
