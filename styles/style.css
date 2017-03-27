@@ -180,6 +180,14 @@ header {
 	color: red;
 }
 
+@media only screen and (max-width: 768px) {
+	#header li ul {
+		position: absolute;
+		width: 100%;
+		left: 0;
+	}
+}
+
 @font-face {
 	font-family: 'American Captain';
 	src: url(../fonts/American_Captain_.ttf);
