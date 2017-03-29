@@ -1,0 +1,222 @@
+
+
+
+iframe {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+#content {
+	color: #fff;
+	margin: 0 auto;
+	width: 100%;
+	height: 120vh;
+	position: relative;
+	top: 275px;
+	background: #131313;
+	z-index: 9;
+}
+
+@media screen and (max-width: 768px) {
+	#content {
+		top: 220px;
+	}
+}
+
+#cont1, #cont2 {
+	top: 3%;
+	position: relative;
+	display: block;
+	width: 50%;
+	height: 60vh;
+	float: left;
+}
+
+.frame1 {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 50%;
+}
+
+.frame2 {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 50%;
+}
+
+#texttext {
+	padding-left: 20px; 
+}
+
+#texttext h2 {
+	font-size: 1.5em; 
+}
+
+#texttext p:nth-child(2) {
+	font-size: 1.3em;
+}
+#texttext p {
+	padding: 20px;
+}
+#texttext p:nth-child(3) {
+	text-align: left;
+	font-size: 1.1em;
+}
+.punk {
+	text-align: left;
+	font-size: 1em;
+}
+
+
+/*Здесь код про мобильные устройства*/
+
+@media screen and (max-width: 768px) {
+	#cont1, #cont2 {
+		float: none;
+		width: 100%;
+		top: 20px;
+	}
+	#cont1 {
+		top: 10%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+iframe {
+	background: orange;
+}
+	
+.redlett {color: red; font-weight: bold; font-size: 17px;}
+
+@media only screen and (min-width: 768px) {
+	#comscr { display: inline-block; }
+	#telscr { display: none; }
+}
+@media only screen and (max-width: 768px) {
+	#comscr { display: none; }
+	#telscr { display: inline-block; }
+}
+
+#telscr {
+	padding-bottom: 20px;
+}
+
+
+#contact {
+	position: absolute;
+	top: 600px;
+	width: 100%;
+	height: 300px;
+}
+
+@media screen and (max-width: 768px) {
+	#contact {
+		top: 100%;
+	}
+}
+
+
+.im {
+	display: block;
+	width: 20vw;
+	z-index: 20;
+}
+
+#contacts ul {
+	list-style: none;
+}
+
+.butt {
+	float: left;
+	width: 20vw;
+	padding-top: 20px;
+	padding-left: 4vw;
+}
+
+.overlay {
+	display: block;
+	float: left;
+	width: 20vw;
+	height: 20vw;
+	background: black;
+	z-index: 9999;
+}
+
+#over1 {
+	background: url(../img/vkdis.png) no-repeat center orange;
+	background-size: 100%;
+}
+
+#over1:hover {
+	background: url(../img/vk.png) no-repeat center orange;
+	background-size: 100%;
+	-webkit-box-shadow: 0px 0px 20px 6px rgba(75,116,161,1);
+	-moz-box-shadow: 0px 0px 20px 6px rgba(75,116,161,1);
+	box-shadow: 0px 0px 20px 6px rgba(75,116,161,1);
+}
+
+#over2 {
+	background: url(../img/gmaildis.png) no-repeat center orange;
+	background-size: 100%;
+}
+
+#over2:hover {
+	background: url(../img/gmail.png) no-repeat center orange;
+	background-size: 100%;
+	-webkit-box-shadow: 0px 0px 20px 6px rgba(255,255,255,1);
+	-moz-box-shadow: 0px 0px 20px 6px rgba(255,255,255,1);
+	box-shadow: 0px 0px 20px 6px rgba(255,255,255,1);
+}
+
+#over3 {
+	background: url(../img/yadis.png) no-repeat center orange;
+	background-size: 100%;
+}
+
+#over3:hover {
+	background: url(../img/ya.png) no-repeat center orange;
+	background-size: 100%;
+	-webkit-box-shadow: 0px 0px 20px 6px rgba(255,255,255,1);
+	-moz-box-shadow: 0px 0px 20px 6px rgba(255,255,255,1);
+	box-shadow: 0px 0px 20px 6px rgba(255,255,255,1);
+}
+
+#over4 {
+	background: url(../img/maildis.png) no-repeat center orange;
+	background-size: 100%;
+}
+
+#over4:hover {
+	background: url(../img/mail.png) no-repeat center orange;
+	background-size: 100%;
+	-webkit-box-shadow: 0px 0px 20px 6px rgba(0,69,136,1);
+	-moz-box-shadow: 0px 0px 20px 6px rgba(0,69,136,1);
+	box-shadow: 0px 0px 20px 6px rgba(0,69,136,1);
+}
+
+#over1:active, #over4:active {
+-webkit-box-shadow: 0px 0px 20px 6px rgba(240,153,20,1);
+-moz-box-shadow: 0px 0px 20px 6px rgba(240,153,20,1);
+box-shadow: 0px 0px 20px 6px rgba(240,153,20,1);
+}
+
+ #over2:active, #over3:active {
+ -webkit-box-shadow: 0px 0px 20px 6px rgba(121,0,208,1);
+-moz-box-shadow: 0px 0px 20px 6px rgba(121,0,208,1);
+box-shadow: 0px 0px 20px 6px rgba(121,0,208,1);
+ }
