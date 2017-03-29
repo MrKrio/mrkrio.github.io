@@ -126,7 +126,7 @@ iframe {
 	#comscr { display: none; }
 	#telscr { display: inline-block;}
 	iframe {
-		height: calc((49%*1.78);
+		height: calc((49%)*1.79);
 	}
 }
 
@@ -141,6 +141,12 @@ iframe {
 	width: 100%;
 	height: 300px;
 	background: #131313;
+}
+
+@media screen and (max-width: 852px) {
+	#contact {
+		top: 70%;
+	}
 }
 
 @media screen and (max-width: 768px) {
