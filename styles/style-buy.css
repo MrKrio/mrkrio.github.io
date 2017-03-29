@@ -126,7 +126,7 @@ iframe {
 	#comscr { display: none; }
 	#telscr { display: inline-block;}
 	iframe {
-		height: 98%;
+		height: calc((49%*1.78);
 	}
 }
 
