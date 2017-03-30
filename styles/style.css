@@ -148,7 +148,7 @@ header {
 	font-family: "American Captain";
 	padding-top: 10px;
 	font-size: 30px;
-	animation: blinker 1s ease-out infinite; 
+	animation: blinker 2s ease-out infinite; 
 }
 
 @keyframes blinker {  
