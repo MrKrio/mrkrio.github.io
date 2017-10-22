@@ -86,11 +86,6 @@ body {
 
 }
 
-#header li:nth-child(2) > a {
-	pointer-events: none;
-	cursor: default;
-}
-
 @media only screen and (max-width: 768px) {
 	.hdr a {
 		font-size: 0.9em;
